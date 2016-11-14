@@ -6,7 +6,8 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans', sans-serif;
+$serif-font-family: 'Josefin Slab', serif;;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -15,7 +16,8 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #007a7c;
+$brand-secondary: #FFF6D5;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -45,7 +47,9 @@ $on-laptop:        800px;
 @import
         "normalize",
         "skeleton",
-        "base",
-        "layout",
-        "syntax-highlighting"
+        "global_layout",
+        "typography",
+        "header",
+        "footer",
+        "project_preview"
 ;

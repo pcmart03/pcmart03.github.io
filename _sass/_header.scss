@@ -1,0 +1,44 @@
+header {
+  background-color: $brand-color;
+  color: $brand-secondary;
+}
+
+.header-container {
+  min-height: 100px;
+  background-color: $brand-color;
+}
+
+.header-logo-svg {
+  width: 340px;
+  height: auto;
+  @media all and (max-width: 320px){
+    width: 90%;
+  }
+}
+
+.nav-flex {
+  display: flex;
+  margin-top: 20px;
+}
+
+.nav-flex-column {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.nav-list {
+  list-style: none;
+  
+  a {
+    color: $brand-secondary;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media all and (min-width: $on-palm) {
+    text-align: right;
+  }
+}

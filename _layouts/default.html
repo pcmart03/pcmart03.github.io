@@ -4,11 +4,11 @@
   {% include head.html %}
 
   <body>
-
+    <a href="#maincontent" class="hidden">Skip to main content</a> 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="page-content" id="maincontent">
+      <div class="container">
         {{ content }}
       </div>
     </div>

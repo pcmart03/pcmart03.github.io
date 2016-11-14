@@ -1,0 +1,43 @@
+.project-list {
+}
+
+.project-list-preview {
+  margin-bottom: 20px;
+  border-bottom: 1px solid $brand-color;
+  .preview-flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    @media all and (min-width: $on-laptop) {
+      flex-direction: row;
+    }
+  }
+  
+  .preview-link {
+    text-decoration: none;
+  }
+  
+  .preview-image-container {
+    width: 100%;
+    .preview-image {
+      width: 100%;
+      height: auto;
+    }
+    @media all and (min-width: $on-laptop) {
+      width: 45%;
+    }
+  }
+}
+
+.preview-description-container {
+  .preview-heading {
+    margin-bottom: 10px;
+  }
+
+  .preview-description {
+    color: $text-color;
+  }
+  @media all and (min-width: $on-laptop) {
+    margin-left: 20px;
+    width: 45%;
+  }
+}
