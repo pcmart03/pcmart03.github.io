@@ -21,6 +21,7 @@
     .preview-image {
       width: 100%;
       height: auto;
+      border: 1px solid #222;
     }
     @media all and (min-width: $on-laptop) {
       width: 45%;

@@ -1,0 +1,20 @@
+{% if page.links %}
+  <h2 class="sidebar-heading">More Info</h2>
+  <ul class=sidebar-list>
+  {% if page.links.github_repo %}
+    <li class="sidebar-list-item-linked"><a href="{{page.links.github_repo}}">Github Repo <i class="fa fa-github" aria-hidden="true"></i></a></li>
+  {% endif%}
+  {% if page.links.live_site %}
+    <li class="sidebar-list-item-linked"><a href="{{ page.links.live_site }}">Live Site</a></li>
+  {% endif%}
+  </ul>
+{% endif %}
+
+{% if page.technologies_used %}
+  <h2 class="sidebar-heading">Technology</h2>
+  <ul class="sidebar-list">
+    {% for tech in page.technologies_used %}
+      <li class="sidebar-list-item">{{tech}}</li>
+    {% endfor %}
+  </ul>
+{% endif %}

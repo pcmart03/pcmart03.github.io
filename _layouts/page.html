@@ -7,9 +7,12 @@ layout: default
       <article class="post-content">
         {{ content }}
       </article>
+      {% if page.slide_images %}
+        {% include slider.html %}
+      {% endif %}
   </section>
   
   <section class="sidebar-right three columns">
-    <h2>sidebar</h2>
+    {% include sidebar.html %}
   </section>
 </div>

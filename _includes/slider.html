@@ -1,0 +1,14 @@
+<h2>Screenshots</h2>
+<div class="slider-container">
+  <div class="prev slider-control slider-div"><p><i class="fa fa-angle-left" aria-hidden="True"></i></p>
+  <span class="hidden">Previous Image</span>
+  </div>
+  {% for image in page.slide_images %}
+    <div class="slider-div slider-content">
+    <img src="{{image.file}}" alt="{{ image.alt_text }}">
+    <p class="slider-caption">{{image.caption}}</p>
+    </div>
+  {% endfor %}
+  <div class="next slider-control slider-div"><p><i class="fa fa-angle-right" aria-hidden="True"></i></p>
+  <span class="hidden">Next Image</span></div>
+</div>

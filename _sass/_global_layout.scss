@@ -22,3 +22,9 @@ html, body {
   height:1px;
   overflow:hidden;
 }
+
+@media all and (max-width: $on-desktop) {
+  .post-content {
+    min-height: 350px;
+  }
+}

@@ -1,10 +1,10 @@
+- title: OFR Pulic Website
+  url: "/ofr_web/"
+  thumb: "/images/thumbnails/ofr_web_thumb.jpg"
+  alt_text: "a page from the app displaying a number of items"
+  description: ""
 - title: Catalog App
   url: "/catalog_project/"
-  thumb: "/images/thumbnails/catalog_thumb.jpg"
+  thumb: "/images/thumbnails/catalog_thumb2.jpg"
   alt_text: "a page from the app displaying a number of items"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores inventore fugiat quos! Sint voluptatum possimus sed laudantium officiis rerum aspernatur blanditiis unde nesciunt! Repellendus architecto ducimus odit saepe voluptatum id."
-- title: Catalog App 2
-  url: "/catalog_project/"
-  thumb: "/images/thumbnails/catalog_thumb.jpg"
-  alt_text: "a page from the app displaying a number of items"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores inventore fugiat quos! Sint voluptatum possimus sed laudantium officiis rerum aspernatur blanditiis unde nesciunt! Repellendus architecto ducimus odit saepe voluptatum id."
+  description: "I built the catalog app as part of the Udacity Full Stack Web Developer Nano Degree. It is written in Python using Flask, and is hosted on Amazon EC2."
